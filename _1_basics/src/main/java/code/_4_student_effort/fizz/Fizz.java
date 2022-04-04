@@ -4,7 +4,7 @@ public class Fizz {
 
     public static String fizzBuz(int i){
         String s=" ";
-
+//
         WordCorrelation [] correlations = {
                 new WordCorrelation(3,"Fizz"),
                 new WordCorrelation(5,"Buzz"),

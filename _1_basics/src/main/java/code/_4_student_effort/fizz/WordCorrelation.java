@@ -13,7 +13,7 @@ public class WordCorrelation {
         return nr;
     }
 
-
+//
     public String getName() {
         return name;
     }
