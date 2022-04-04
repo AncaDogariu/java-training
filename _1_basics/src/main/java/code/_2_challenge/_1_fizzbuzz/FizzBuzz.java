@@ -24,7 +24,7 @@ public class FizzBuzz {
     return s;
   }
 
-  public String fizzBuzz2(int i) {
+  public static String fizzBuzz2(int i) {
     String s = "";
 
     NumberWordCorrelation[] correlations = {
@@ -46,5 +46,12 @@ public class FizzBuzz {
 
 
     return s;
+  }
+
+  public static void main(String[] args) {
+
+    for(int i=1; i< 100; i++){
+      System.out.println(fizzBuzz2(i));
+    }
   }
 }
